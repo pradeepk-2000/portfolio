@@ -7,7 +7,7 @@ const Header = ()=>{
     const handleNavButton =()=>{
       const navClass =  document.querySelector(".navbar-collapse");
         navClass.classList.toggle("collapse-true");
-        menuIcon ==faBars ? setMenuIcon(faTimes) : setMenuIcon(faBars);
+        menuIcon ===faBars ? setMenuIcon(faTimes) : setMenuIcon(faBars);
     }
     return(
         <div className="header">
